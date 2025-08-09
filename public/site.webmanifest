@@ -1,0 +1,10 @@
+{
+  "name": "Reddit Product Advisor",
+  "short_name": "RedditPA",
+  "description": "AI-powered product recommendations based on Reddit discussions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": []
+}

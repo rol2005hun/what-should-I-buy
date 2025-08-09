@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "Reddit Termék Tanácsadó",
+    "description": "Találd meg a legjobb termékeket Reddit beszélgetések alapján",
+    "extendedDescription": "Kapj AI-alapú ajánlásokat több ezer valódi felhasználói tapasztalat és Reddit beszélgetés alapján."
+  },
+  "search": {
+    "placeholder": "Milyen terméket keresel?",
+    "button": "Termékek Keresése",
+    "loading": "Reddit keresése és ajánlások elemzése...",
+    "loadingTitle": "Reddit Beszélgetések Elemzése",
+    "popularSearches": "Népszerű keresések:",
+    "noResults": "Nem található termék. Próbálj egy másik keresőszót.",
+    "noResultsTitle": "Nincs Találat",
+    "tryThese": "Próbáld ezeket a népszerű kereséseket:",
+    "error": "Hiba történt a keresés során. Kérjük, próbáld újra.",
+    "errorTitle": "Keresési Hiba",
+    "tryAgain": "Keresés Törlése",
+    "retry": "Újrapróbálás",
+    "newSearch": "Új Keresés",
+    "recentSearches": "Legutóbbi Keresések",
+    "removeFromHistory": "Eltávolítás az előzményekből",
+    "clearHistory": "Összes Törlése",
+    "serverError": "Szerver hiba történt. Kérjük, próbálja újra később.",
+    "noRedditData": "Nem találtunk releváns Reddit beszélgetéseket",
+    "limitedData": "Korlátozott Reddit adatok találhatók",
+    "suggestions": {
+      "laptop": "laptop",
+      "headphones": "fejhallgató",
+      "smartphone": "okostelefon",
+      "keyboard": "billentyűzet",
+      "monitor": "monitor"
+    },
+    "fallback": {
+      "gamingLaptop": "gaming laptop",
+      "wirelessHeadphones": "vezeték nélküli fejhallgató",
+      "mechanicalKeyboard": "mechanikus billentyűzet",
+      "monitor4k": "4K monitor",
+      "budgetSmartphone": "okostelefon 150.000 Ft alatt"
+    }
+  },
+  "results": {
+    "title": "Ajánlott Termékek",
+    "found": "találat",
+    "suggestions": "Reddit beszélgetések alapján, íme a legjobb ajánlások:"
+  },
+  "product": {
+    "reason": "Miért ajánlott:",
+    "viewMore": "Részletek Megtekintése",
+    "confidence": "Megbízhatóság:",
+    "share": "Termék megosztása",
+    "discussions": "beszélgetés",
+    "category": "Kategória:",
+    "priceRange": "Árkategória:",
+    "price": "Ár:",
+    "features": "Jellemzők:",
+    "pros": "Előnyök:",
+    "cons": "Hátrányok:"
+  },
+  "language": {
+    "switch": "Nyelv",
+    "en": "Angol",
+    "hu": "Magyar"
+  },
+  "theme": {
+    "toggle": "Téma váltása",
+    "light": "Világos",
+    "dark": "Sötét",
+    "auto": "Automatikus"
+  },
+  "layout": {
+    "grid": "Rács",
+    "list": "Lista"
+  },
+  "footer": {
+    "poweredBy": "Reddit beszélgetések és AI elemzés által hajtva",
+    "about": "Rólunk",
+    "privacy": "Adatvédelem",
+    "contact": "Kapcsolat"
+  },
+  "stats": {
+    "searches": "Elvégzett Keresések",
+    "totalSearches": "Összes Keresés",
+    "discussions": "Beszélgetések",
+    "posts": "Elemzett Bejegyzések",
+    "products": "Értékelt Termékek",
+    "accuracy": "Pontossági Arány"
+  }
+}

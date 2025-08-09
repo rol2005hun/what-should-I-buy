@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Reddit Product Advisor",
+    "description": "Find the best products based on Reddit discussions",
+    "extendedDescription": "Get AI-powered recommendations from thousands of real user experiences and discussions on Reddit."
+  },
+  "search": {
+    "placeholder": "What product are you looking for?",
+    "button": "Find Products",
+    "loading": "Searching Reddit and analyzing recommendations...",
+    "loadingTitle": "Analyzing Reddit Discussions",
+    "popularSearches": "Popular searches:",
+    "noResults": "No products found. Try a different search term.",
+    "noResultsTitle": "No Results Found",
+    "tryThese": "Try these popular searches:",
+    "error": "An error occurred while searching. Please try again.",
+    "errorTitle": "Search Error",
+    "tryAgain": "Clear Search",
+    "retry": "Try Again",
+    "newSearch": "New Search",
+    "recentSearches": "Recent Searches",
+    "removeFromHistory": "Remove from history",
+    "clearHistory": "Clear All",
+    "serverError": "Server error occurred. Please try again later.",
+    "noRedditData": "No relevant Reddit discussions found",
+    "limitedData": "Limited Reddit data found",
+    "suggestions": {
+      "laptop": "laptop",
+      "headphones": "headphones",
+      "smartphone": "smartphone",
+      "keyboard": "keyboard",
+      "monitor": "monitor"
+    },
+    "fallback": {
+      "gamingLaptop": "gaming laptop",
+      "wirelessHeadphones": "wireless headphones",
+      "mechanicalKeyboard": "mechanical keyboard",
+      "monitor4k": "4K monitor",
+      "budgetSmartphone": "smartphone under $500"
+    }
+  },
+  "results": {
+    "title": "Recommended Products",
+    "found": "found",
+    "suggestions": "Based on Reddit discussions, here are the top recommendations:"
+  },
+  "product": {
+    "reason": "Why recommended:",
+    "viewMore": "View Details",
+    "confidence": "Confidence:",
+    "share": "Share product",
+    "category": "Category:",
+    "priceRange": "Price Range:"
+  },
+  "language": {
+    "switch": "Language",
+    "en": "English",
+    "hu": "Hungarian"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "layout": {
+    "grid": "Grid",
+    "list": "List"
+  },
+  "footer": {
+    "poweredBy": "Powered by Reddit discussions and AI analysis",
+    "about": "About",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "stats": {
+    "searches": "Searches Performed",
+    "totalSearches": "Total Searches",
+    "discussions": "Discussions",
+    "posts": "Posts Analyzed",
+    "products": "Products Evaluated",
+    "accuracy": "Accuracy Rate"
+  }
+}

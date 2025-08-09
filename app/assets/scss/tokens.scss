@@ -1,0 +1,87 @@
+:root {
+    --color-primary: #6366f1;
+    --color-primary-dark: #4f46e5;
+    --color-primary-light: #8b5cf6;
+    --color-primary-alpha: rgba(99, 102, 241, 0.1);
+    --color-primary-rgb: 99, 102, 241;
+
+    --color-accent: #f59e0b;
+    --color-accent-dark: #d97706;
+    --color-accent-light: #fbbf24;
+
+    --color-success: #10b981;
+    --color-success-dark: #059669;
+    --color-success-light: #34d399;
+
+    --color-error: #ef4444;
+    --color-error-dark: #dc2626;
+    --color-error-light: #fef2f2;
+
+    --color-warning: #f59e0b;
+    --color-warning-dark: #d97706;
+    --color-warning-light: #fef3c7;
+
+    --color-surface-0: #ffffff;
+    --color-surface-1: #f8fafc;
+    --color-surface-2: #f1f5f9;
+    --color-surface-3: #e2e8f0;
+
+    --color-text-primary: #1e293b;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748b;
+    --color-text-inverse: #ffffff;
+
+    --color-border: #e2e8f0;
+    --color-border-light: #f1f5f9;
+    --color-border-dark: #cbd5e1;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 0.75rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.5rem;
+    --spacing-xxl: 2rem;
+    --spacing-3xl: 3rem;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.2s ease;
+    --transition-slow: 0.3s ease;
+
+    --z-dropdown: 1000;
+    --z-modal: 1050;
+    --z-tooltip: 1100;
+}
+
+[data-theme="dark"] {
+    --color-surface-0: #0f172a;
+    --color-surface-1: #1e293b;
+    --color-surface-2: #334155;
+    --color-surface-3: #475569;
+
+    --color-text-primary: #f8fafc;
+    --color-text-secondary: #cbd5e1;
+    --color-text-muted: #94a3b8;
+
+    --color-border: #334155;
+    --color-border-light: #475569;
+    --color-border-dark: #1e293b;
+}

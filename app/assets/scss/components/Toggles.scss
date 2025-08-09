@@ -1,0 +1,115 @@
+@use '../tokens' as *;
+
+.theme-toggle {
+  background: var(--color-surface-1);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: var(--color-primary);
+    background: var(--color-primary-alpha);
+    transform: translateY(-1px);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--color-primary-alpha);
+  }
+
+  &-icon {
+    font-size: var(--font-size-lg);
+    transition: transform 0.3s ease;
+  }
+
+  &:hover &-icon {
+    transform: rotate(180deg);
+  }
+
+  &-label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+}
+
+.layout-toggle {
+  display: flex;
+  background: var(--color-surface-1);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  position: relative;
+
+  &-button {
+    background: transparent;
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    transition: all 0.2s ease;
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+
+    &:hover {
+      background: var(--color-primary-alpha);
+      color: var(--color-primary-dark);
+    }
+
+    &--active {
+      background: var(--color-primary);
+      color: white;
+    }
+  }
+
+  &-icon-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-icon {
+    width: 100%;
+    height: 100%;
+    transition: color 0.2s ease;
+  }
+
+  &-label {
+    font-size: var(--font-size-sm);
+
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+}
+
+.flip-enter-active,
+.flip-leave-active {
+  transition: all var(--transition-fast);
+}
+
+.flip-enter-from {
+  opacity: 0;
+  transform: rotateY(90deg);
+}
+
+.flip-leave-to {
+  opacity: 0;
+  transform: rotateY(-90deg);
+}
