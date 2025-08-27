@@ -1,17 +1,27 @@
-$primary-color: var(--color-primary-600);
-$primary-hover: var(--color-primary-700);
-$secondary-color: var(--color-gray-600);
+// Themes entry point
+// Import base colors and design tokens first
+@use 'base';
+
+// Import all theme variations
+@use 'light';
+@use 'dark';
+@use 'classic';
+
+// Export theme variables for SCSS compatibility
+$primary-color: var(--interactive-primary);
+$primary-hover: var(--interactive-primary-hover);
+$secondary-color: var(--text-secondary);
 $background-color: var(--bg-body);
 $surface-color: var(--bg-surface);
 $text-color: var(--text-primary);
 $text-muted: var(--text-muted);
 $border-color: var(--border-normal);
-$success-color: var(--color-green-500);
-$warning-color: #f59e0b;
-$error-color: var(--color-red-500);
+$success-color: var(--status-success);
+$warning-color: var(--status-warning);
+$error-color: var(--status-error);
 
-$shadow: var(--shadow-md);
-$shadow-lg: var(--shadow-lg);
+$shadow: var(--shadow-medium);
+$shadow-lg: var(--shadow-strong);
 
 $radius: var(--border-radius-lg);
 $radius-lg: var(--border-radius-xl);

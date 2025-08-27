@@ -30,8 +30,8 @@
     transition: all var(--transition-normal);
 
     &:hover {
-      background: var(--color-primary-50);
-      border-color: var(--color-primary-200);
+      background: var(--bg-surface-hover);
+      border-color: var(--border-focus);
       transform: translateX(3px);
 
       .search-history-remove {
@@ -68,9 +68,9 @@
 
   &-remove {
     opacity: 0;
-    background: var(--color-red-500);
+    background: var(--status-error);
     border: none;
-    color: white;
+    color: var(--text-inverse);
     cursor: pointer;
     padding: 0;
     width: 20px;
@@ -91,8 +91,8 @@
 
   &-clear {
     background: transparent;
-    border: 1px solid var(--color-red-500);
-    color: var(--color-red-500);
+    border: 1px solid var(--status-error);
+    color: var(--status-error);
     border-radius: var(--border-radius-sm);
     padding: var(--spacing-1) var(--spacing-2);
     font-size: var(--font-size-xs);
@@ -100,8 +100,8 @@
     transition: all var(--transition-normal);
 
     &:hover {
-      background: var(--color-red-500);
-      color: white;
+      background: var(--status-error);
+      color: var(--text-inverse);
     }
   }
 }
@@ -184,7 +184,7 @@
   &-number {
     font-size: var(--font-size-3xl);
     font-weight: var(--font-weight-extrabold);
-    color: var(--color-primary-600);
+    color: var(--interactive-primary);
     display: block;
     line-height: var(--line-height-tight);
   }

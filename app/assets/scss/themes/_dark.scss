@@ -1,0 +1,41 @@
+// Dark theme variables
+[data-theme="dark"] {
+    // Background colors
+    --bg-body: var(--color-gray-900);
+    --bg-surface: var(--color-gray-800);
+    --bg-surface-elevated: var(--color-gray-700);
+    --bg-surface-hover: var(--color-gray-700);
+    --bg-hero: linear-gradient(135deg, var(--color-gray-900) 0%, var(--color-gray-800) 40%, var(--color-gray-700) 100%);
+
+    // Text colors
+    --text-primary: var(--color-gray-100);
+    --text-secondary: var(--color-gray-300);
+    --text-muted: var(--color-gray-400);
+    --text-inverse: var(--color-gray-900);
+
+    // Border colors
+    --border-light: var(--color-gray-700);
+    --border-normal: var(--color-gray-600);
+    --border-dark: var(--color-gray-500);
+    --border-focus: var(--color-primary-400);
+
+    // Interactive colors
+    --interactive-primary: var(--color-primary-500);
+    --interactive-primary-hover: var(--color-primary-400);
+    --interactive-primary-active: var(--color-primary-300);
+
+    // Status colors
+    --status-success: var(--color-green-400);
+    --status-warning: #fbbf24;
+    --status-error: var(--color-red-400);
+    --status-info: var(--color-primary-400);
+
+    // Shadows with dark theme opacity
+    --shadow-light: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px 0 rgb(0 0 0 / 0.2);
+    --shadow-medium: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+    --shadow-strong: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+
+    // Gradients
+    --gradient-primary: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-800) 100%);
+    --gradient-primary-hover: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-700) 100%);
+}

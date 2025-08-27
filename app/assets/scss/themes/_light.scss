@@ -1,0 +1,42 @@
+// Light theme - default theme variables
+:root,
+[data-theme="light"] {
+    // Background colors
+    --bg-body: var(--color-gray-50);
+    --bg-surface: var(--color-white);
+    --bg-surface-elevated: var(--color-white);
+    --bg-surface-hover: var(--color-gray-100);
+    --bg-hero: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-700) 40%, var(--color-primary-900) 100%);
+
+    // Text colors
+    --text-primary: var(--color-gray-900);
+    --text-secondary: var(--color-gray-700);
+    --text-muted: var(--color-gray-500);
+    --text-inverse: var(--color-white);
+
+    // Border colors
+    --border-light: var(--color-gray-200);
+    --border-normal: var(--color-gray-300);
+    --border-dark: var(--color-gray-400);
+    --border-focus: var(--color-primary-500);
+
+    // Interactive colors
+    --interactive-primary: var(--color-primary-600);
+    --interactive-primary-hover: var(--color-primary-700);
+    --interactive-primary-active: var(--color-primary-800);
+
+    // Status colors
+    --status-success: var(--color-green-500);
+    --status-warning: #f59e0b;
+    --status-error: var(--color-red-500);
+    --status-info: var(--color-primary-500);
+
+    // Shadows with light theme opacity
+    --shadow-light: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px 0 rgb(0 0 0 / 0.06);
+    --shadow-medium: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-strong: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    // Gradients
+    --gradient-primary: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-primary-700) 100%);
+    --gradient-primary-hover: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-800) 100%);
+}

@@ -69,9 +69,30 @@
   },
   "footer": {
     "poweredBy": "Powered by Reddit discussions and AI analysis",
+    "madeWith": "Made with ❤️ for smart shoppers",
     "about": "About",
     "privacy": "Privacy",
-    "contact": "Contact"
+    "contact": "Contact",
+    "help": "Help",
+    "followUs": "Follow us:",
+    "sections": {
+      "links": "Quick Links",
+      "stats": "Live Stats"
+    },
+    "features": {
+      "ai": "AI Powered",
+      "reddit": "Reddit Data", 
+      "realtime": "Real-time"
+    },
+    "stats": {
+      "searches": "Searches",
+      "discussions": "Discussions"
+    },
+    "social": {
+      "github": "GitHub",
+      "reddit": "Reddit",
+      "contact": "Contact"
+    }
   },
   "stats": {
     "searches": "Searches Performed",

@@ -74,9 +74,30 @@
   },
   "footer": {
     "poweredBy": "Reddit beszélgetések és AI elemzés által hajtva",
+    "madeWith": "❤️-tel készítve okos vásárlóknak",
     "about": "Rólunk",
     "privacy": "Adatvédelem",
-    "contact": "Kapcsolat"
+    "contact": "Kapcsolat",
+    "help": "Segítség",
+    "followUs": "Kövess minket:",
+    "sections": {
+      "links": "Gyors Linkek",
+      "stats": "Élő Statisztikák"
+    },
+    "features": {
+      "ai": "AI Hajtotta",
+      "reddit": "Reddit Adatok",
+      "realtime": "Valós idejű"
+    },
+    "stats": {
+      "searches": "Keresések",
+      "discussions": "Beszélgetések"
+    },
+    "social": {
+      "github": "GitHub",
+      "reddit": "Reddit", 
+      "contact": "Kapcsolat"
+    }
   },
   "stats": {
     "searches": "Elvégzett Keresések",

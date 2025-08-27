@@ -149,12 +149,67 @@
             <StatsSection />
 
             <footer class="app-footer">
-                <div class="footer-content">
-                    <p class="footer-text">{{ $t('footer.poweredBy') }}</p>
-                    <div class="footer-links">
-                        <a href="#" class="footer-link">{{ $t('footer.about') }}</a>
-                        <a href="#" class="footer-link">{{ $t('footer.privacy') }}</a>
-                        <a href="#" class="footer-link">{{ $t('footer.contact') }}</a>
+                <div class="footer-container">
+                    <div class="footer-main">
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <div class="logo-icon">🛒</div>
+                                <span class="logo-text">{{ $t('app.title') }}</span>
+                            </div>
+                            <p class="footer-description">
+                                {{ $t('app.extendedDescription') }}
+                            </p>
+                            <div class="footer-features">
+                                <span class="feature-badge">🤖 {{ $t('footer.features.ai') }}</span>
+                                <span class="feature-badge">💬 {{ $t('footer.features.reddit') }}</span>
+                                <span class="feature-badge">⚡ {{ $t('footer.features.realtime') }}</span>
+                            </div>
+                        </div>
+
+                        <div class="footer-section">
+                            <h3 class="section-title">{{ $t('footer.sections.links') }}</h3>
+                            <div class="footer-links">
+                                <a href="#" class="footer-link">{{ $t('footer.about') }}</a>
+                                <a href="#" class="footer-link">{{ $t('footer.privacy') }}</a>
+                                <a href="#" class="footer-link">{{ $t('footer.contact') }}</a>
+                                <a href="#" class="footer-link">{{ $t('footer.help') }}</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-section footer-stats">
+                            <h3 class="section-title">{{ $t('footer.sections.stats') }}</h3>
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <span class="stat-number">10K+</span>
+                                    <span class="stat-label">{{ $t('footer.stats.searches') }}</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">50K+</span>
+                                    <span class="stat-label">{{ $t('footer.stats.discussions') }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p class="footer-text">
+                            {{ $t('footer.poweredBy') }} • 
+                            <span class="highlight">{{ $t('footer.madeWith') }}</span>
+                        </p>
+                        <div class="footer-social">
+                            <span class="social-text">{{ $t('footer.followUs') }}</span>
+                            <div class="social-links">
+                                <a href="#" class="social-link" :title="$t('footer.social.github')">
+                                    <span>🔗</span>
+                                </a>
+                                <a href="#" class="social-link" :title="$t('footer.social.reddit')">
+                                    <span>📱</span>
+                                </a>
+                                <a href="#" class="social-link" :title="$t('footer.social.contact')">
+                                    <span>✉️</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </footer>

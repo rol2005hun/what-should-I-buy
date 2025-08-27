@@ -29,7 +29,6 @@ export const useUIStore = defineStore('ui', {
             initialLanguage = languageCookie.value as 'en' | 'hu';
             initialLayout = layoutCookie.value as 'grid' | 'list';
 
-            // Server oldalon is ugyanazzal a logikával kezeljük
             try {
                 if (Array.isArray(searchHistoryCookie.value)) {
                     initialSearchHistory = [...searchHistoryCookie.value];
@@ -160,8 +159,6 @@ export const useUIStore = defineStore('ui', {
 
         initializeFromStorage() {
             if (import.meta.client) {
-                // Csak a theme alkalmazására van szükség client oldalon
-                // A search history már server oldalon betöltődött
                 this.applyTheme();
             }
         },

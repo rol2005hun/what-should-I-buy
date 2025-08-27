@@ -1,0 +1,51 @@
+[data-theme="classic"] {
+    // Classic color palette
+    --color-classic-cream: #fdf6e3;
+    --color-classic-beige: #f7f1e8;
+    --color-classic-brown-light: #8b7355;
+    --color-classic-brown: #6d5a3e;
+    --color-classic-brown-dark: #5d4e37;
+    --color-classic-gold: #d4af37;
+    --color-classic-gold-dark: #b8860b;
+    --color-classic-burgundy: #722f37;
+    --color-classic-burgundy-dark: #5c1f26;
+
+    // Background colors
+    --bg-body: var(--color-classic-cream);
+    --bg-surface: var(--color-classic-beige);
+    --bg-surface-elevated: var(--color-white);
+    --bg-surface-hover: #f0e9d8;
+    --bg-hero: linear-gradient(135deg, var(--color-classic-burgundy) 0%, var(--color-classic-burgundy-dark) 40%, var(--color-classic-brown-dark) 100%);
+
+    // Text colors
+    --text-primary: var(--color-classic-brown-dark);
+    --text-secondary: var(--color-classic-brown);
+    --text-muted: var(--color-classic-brown-light);
+    --text-inverse: var(--color-classic-cream);
+
+    // Border colors
+    --border-light: #e6d7c3;
+    --border-normal: #d4c5a9;
+    --border-dark: var(--color-classic-brown-light);
+    --border-focus: var(--color-classic-gold);
+
+    // Interactive colors
+    --interactive-primary: var(--color-classic-burgundy);
+    --interactive-primary-hover: var(--color-classic-burgundy-dark);
+    --interactive-primary-active: #4a1a1f;
+
+    // Status colors
+    --status-success: #8fbc8f;
+    --status-warning: var(--color-classic-gold);
+    --status-error: #cd5c5c;
+    --status-info: var(--color-classic-burgundy);
+
+    // Shadows with warm tones
+    --shadow-light: 0 1px 3px 0 rgb(109 90 62 / 0.15), 0 1px 2px 0 rgb(109 90 62 / 0.1);
+    --shadow-medium: 0 4px 6px -1px rgb(109 90 62 / 0.15), 0 2px 4px -2px rgb(109 90 62 / 0.1);
+    --shadow-strong: 0 10px 15px -3px rgb(109 90 62 / 0.15), 0 4px 6px -4px rgb(109 90 62 / 0.1);
+
+    // Gradients
+    --gradient-primary: linear-gradient(135deg, var(--color-classic-burgundy) 0%, var(--color-classic-burgundy-dark) 100%);
+    --gradient-primary-hover: linear-gradient(135deg, var(--color-classic-burgundy-dark) 0%, #4a1a1f 100%);
+}

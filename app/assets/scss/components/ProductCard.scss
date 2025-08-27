@@ -59,7 +59,7 @@
   &-header {
     position: relative;
     overflow: hidden;
-    background: var(--color-gray-100);
+    background: var(--bg-surface-hover);
     height: 200px;
     display: flex;
     align-items: center;
@@ -136,8 +136,8 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-1);
-    background: var(--color-green-100);
-    color: var(--color-green-700);
+    background: var(--bg-surface-hover);
+    color: var(--status-success);
     padding: var(--spacing-1) var(--spacing-3);
     border-radius: var(--border-radius-full);
     font-size: var(--font-size-xs);
@@ -168,7 +168,7 @@
   }
 
   &-tag {
-    background: var(--color-gray-100);
+    background: var(--bg-surface-hover);
     color: var(--text-secondary);
     padding: var(--spacing-1) var(--spacing-2);
     border-radius: var(--border-radius-sm);
@@ -212,7 +212,7 @@
       justify-content: center;
 
       &:hover {
-        background: var(--color-gray-100);
+        background: var(--bg-surface-hover);
         color: var(--text-primary);
         border-color: var(--border-dark);
       }

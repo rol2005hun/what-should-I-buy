@@ -1,5 +1,5 @@
 @use 'tokens';
-@use 'variables';
+@use 'themes';
 
 *,
 *::before,
@@ -29,7 +29,6 @@ body {
   padding: 0 var(--spacing-6);
 }
 
-// Utility classes
 .text-center {
   text-align: center;
 }
@@ -42,7 +41,6 @@ body {
   text-align: right;
 }
 
-// Button classes
 .btn {
   display: inline-flex;
   align-items: center;
@@ -113,7 +111,6 @@ body {
   }
 }
 
-// Input classes
 .input {
   display: block;
   width: 100%;
@@ -143,7 +140,6 @@ body {
   }
 }
 
-// Card classes
 .card {
   background: var(--bg-surface);
   border: 1px solid var(--border-light);
@@ -157,7 +153,6 @@ body {
   }
 }
 
-// Animation classes
 .slide-leave-active {
   transition: all var(--transition-normal);
 }
@@ -225,6 +220,7 @@ body {
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 0.3;
